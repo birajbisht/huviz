@@ -1,0 +1,41 @@
+body {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.bar {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.scatter {
+  display: inline-block;
+  fill: teal;
+  fill-opacity: 0.5;
+  stroke: black;
+  stroke-weight: 1px;
+}
+
+#barChart {
+  width: 600px;
+  height: 300px;
+  background-color: #EFE;
+}
+
+#chartArea {
+  width: 600px;
+  height: 200px;
+  background-color: #EFE;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.y path, .y line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
